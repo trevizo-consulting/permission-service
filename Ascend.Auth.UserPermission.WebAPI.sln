@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ascend.Auth.UserPermission.Business", "Ascend.Auth.UserPermission.Business\Ascend.Auth.UserPermission.Business.csproj", "{545F72C2-68E4-49B1-BF06-CA1B16AE7E0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ascend.Auth.UserPermission.Data", "Ascend.Auth.UserPermission.Data\Ascend.Auth.UserPermission.Data.csproj", "{DD12A4CF-2FAD-4752-8531-021325F2377C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB57D91E-7877-4F82-B34D-D28BCBE946D2}"
+	ProjectSection(SolutionItems) = preProject
+		Ascend.Auth.UserPermission.WebAPI\Ascend.Auth.UserPermission.WebAPI.csproj = Ascend.Auth.UserPermission.WebAPI\Ascend.Auth.UserPermission.WebAPI.csproj
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ascend.Auth.UserPermission.WebAPI", "Ascend.Auth.UserPermission.WebAPI\Ascend.Auth.UserPermission.WebAPI.csproj", "{5C57FE14-EEA1-41AB-89A5-D4A439408DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ascend.Auth.UserPermission.Business.Test.Unit", "Ascend.Auth.UserPermission.Business.Test.Unit\Ascend.Auth.UserPermission.Business.Test.Unit.csproj", "{BF98454B-9D32-47C3-8379-17626DB61DD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{545F72C2-68E4-49B1-BF06-CA1B16AE7E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545F72C2-68E4-49B1-BF06-CA1B16AE7E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545F72C2-68E4-49B1-BF06-CA1B16AE7E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545F72C2-68E4-49B1-BF06-CA1B16AE7E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD12A4CF-2FAD-4752-8531-021325F2377C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD12A4CF-2FAD-4752-8531-021325F2377C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD12A4CF-2FAD-4752-8531-021325F2377C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD12A4CF-2FAD-4752-8531-021325F2377C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C57FE14-EEA1-41AB-89A5-D4A439408DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C57FE14-EEA1-41AB-89A5-D4A439408DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C57FE14-EEA1-41AB-89A5-D4A439408DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C57FE14-EEA1-41AB-89A5-D4A439408DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF98454B-9D32-47C3-8379-17626DB61DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF98454B-9D32-47C3-8379-17626DB61DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF98454B-9D32-47C3-8379-17626DB61DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF98454B-9D32-47C3-8379-17626DB61DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F90FD2ED-BB83-4B98-8E49-66915B72AEFF}
+	EndGlobalSection
+EndGlobal

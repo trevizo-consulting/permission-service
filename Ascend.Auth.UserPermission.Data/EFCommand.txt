@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Connection -NoOnConfiguring "Server=localhost;Database=UserPermission;Encrypt=False;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -Context UserPermissionContext -OutputDir Entities -f
